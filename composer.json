@@ -1,0 +1,20 @@
+{
+  "name": "wp/probability-distributor",
+  "type": "package",
+  "license": "MIT",
+  "description": "PHP class that generates lists of items based on specified weights",
+  "homepage": "https://github.com/webproducer/probability-distributor",
+  "authors": [
+    {
+      "name": "Alexander Safronov",
+      "email": "safron@webproducers.ru"
+    }
+  ],
+
+  "autoload" : {
+    "psr-0" : {
+      "WP": "src/"
+    }
+  }
+
+}
