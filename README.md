@@ -21,6 +21,6 @@ foreach ($d->generate($totalCnt) as $val) {
     $res[$val]++;
 }
 foreach ($res as $val => $valCnt) {
-    printf("%s: %d (%.2f %%)\n", $valCnt, $cnt, ($valCnt/$totalCnt)*100);
+    printf("%s: %d (%.2f %%)\n", $val, $valCnt, ($valCnt/$totalCnt)*100);
 }
 ```
