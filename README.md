@@ -15,7 +15,6 @@ $d = new WP\ProbabilityDistributor([
 $totalCnt = 100000;
 $res = [];
 foreach ($d->generate($totalCnt) as $val) {
-    $val = $d->next();
     if (!isset($res[$val])) {
         $res[$val] = 0;
     }
